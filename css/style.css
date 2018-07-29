@@ -16,25 +16,27 @@ html body {
 nav {
   margin: 0;
   position: relative;
-  width: 420px;
+  width: 573px;
   background-color: black;
-  height: 50px;
+  height: 60px;
 
 }
 
 h1 {
   padding-left: 5%;
-  padding-top: 5%;
+  padding-top: 1%;
   padding-bottom: 5%;
   font-size: 18px;
   font-weight: bolder;
+  line-height: inherit;
 }
 
 h3 {
   padding-left: 5%;
   padding-top: 0%;
-  padding-bottom:5%;
+  padding-bottom: 3%;
   font-size: 14px;
+  line-height: inherit;
 }
 
 .container {
@@ -42,7 +44,7 @@ h3 {
   background-color: lightgrey;
   grid-column: auto;
   margin: 0% 40%;
-  width: 420px;
+  width: 573px;
   margin-top: 40px;
 
 }
@@ -53,4 +55,17 @@ h3 {
 
 .arrow {
   padding-left: 90%;
+  padding-bottom: 0%;
+}
+
+.location {
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: black;
+  display: inline-block;
+  width: 100%;
 }
