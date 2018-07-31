@@ -51,13 +51,24 @@ h3 {
 
 .content:hover {
   background-color: darkgrey;
+  width: 100%;
 }
 
+.content {
+  width: 80%;
+  float: left;
+  padding: 2%;
+}
+.arrow-left {
+  width: 0%;
+  padding-left: 3%;
+  padding-top: 4%;
+}
 .arrow {
-  padding-left: 90%;
-  padding-bottom: 0%;
+  width: 0%;
+  padding: 6%;
+  padding-left: 95%;
 }
-
 .location {
   padding-top: 0%;
   padding-bottom: 0%;
