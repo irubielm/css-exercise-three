@@ -7,9 +7,6 @@ body {
   font-family: sans-serif;
   font-size: 10px;
   line-height: .3;
-}
-
-html body {
   text-decoration: center;
   margin: 0 80px;
 }
@@ -41,18 +38,15 @@ h3 {
 }
 
 .container {
-  display: inline-block;
   background-color: lightgrey;
   grid-column: auto;
   margin: 0% 40%;
   width: 573px;
   margin-top: 40px;
-
 }
 
-.content:hover {
+.location:hover {
   background-color: darkgrey;
-  width: 100%;
 }
 
 .content {
@@ -60,15 +54,17 @@ h3 {
   float: left;
   padding: 3%;
 }
+
 .arrow-left {
   width: 0%;
   padding-left: 3%;
   padding-top: 4%;
 }
+
 .arrow {
   width: 5%;
-  padding: 6%;
-  padding-left: 95%;
+float:right;
+padding:30px;
 }
 
 .location {
